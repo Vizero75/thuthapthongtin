@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://vidipha.com.vn/img/vidipha/products/10%20Augixicine%201g-H_14%20_%20100.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.warning {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.warning.active {
+    color: red;
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="button"]:hover {
+    background-color: #218838;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: #28a745;
+}
+
+.help-link {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 19px;
+}
+
+.help-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.help-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input[type="text"], input[type="button"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .help-link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    h2 {
+        font-size: 18px;
+    }
+    input[type="text"], input[type="button"] {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .help-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 18px;
+    }
+    input[type="text"], input[type="button"] {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .help-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    h2 {
+        font-size: 16px;
+    }
+    input[type="text"], input[type="button"] {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .help-link {
+        font-size: 8px;
+    }
+}
